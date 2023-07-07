@@ -14,8 +14,8 @@ This Python command-line tool allows you to perform AES encryption and decryptio
 
 1. Install the required dependencies: `pip install pycryptodome`
 2. Run the script with the desired options:
-   - For encryption: `python secureCLI.py -e [-k "your-key"] -t "plaintext"`
-   - For decryption: `python secureCLI.py -d -k "your-key" -c "ciphertext"`
+   - For encryption: `python secureCLI.py -e [-k "your-key"] -t "plaintext" -o output.txt`
+   - For decryption: `python secureCLI.py -d -k "your-key" -c "ciphertext" -o output.txt`
    - Output file can be specified with the `-o` option
 
 Note: If the key is not provided for encryption, the program will generate a random key.
